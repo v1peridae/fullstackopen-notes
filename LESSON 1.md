@@ -7,27 +7,26 @@ The internet protocol suite:
 - Application layer - HTTPS/FTP/TLS/SSL
 - Transport layer - TCP / UDP / DCCP
 - Internet layer - IP(v4/v6)
-- Link Layer -  MAC 
-There are 5 kinds of HTTPS status codes:
-
-1. 1xx informational response – the request was received, continuing process
-2xx successful – the request was successfully received, understood, and accepted
-3xx redirection – further action needs to be taken in order to complete the request
-4xx client error – the request contains bad syntax or cannot be fulfilled
-5xx server error – the server failed to fulfil an apparently valid request
+- Link Layer - MAC 
 HTTP protocol is an application-layer protocol used to transmit HTML by communication between a browser and a server. It is a stateless protocol which means that the server does not keep any data between two requests. 
 
+There are 5 kinds of HTTPS status codes:
+
+1. 1xx informational response – the request was received, continuing process.
+2. 2xx successful – the request was successfully received, understood, and accepted.
+3. 3xx redirection – further action needs to be taken in order to complete the request.
+4. 4xx client error – the request contains bad syntax or cannot be fulfilled.
+5. 5xx server error – the server failed to fulfil an apparently valid request.
 HTTP `GET` is used to request data from a server to a browser.
 
 In traditional web applications, the browser is "dumb". It only fetches HTML data from the server, and all application logic is on the server. A server can be created using Java Spring, Python Flask or Ruby on Rails to name just a few examples.
-
-
 
 HTTP requests are fetched in this order:
 
 1. Document (HTML file)
 2. Stylesheet (CSS file)
 3. Script (JS file)
+4. Notes (JSON file)
 
 
 
